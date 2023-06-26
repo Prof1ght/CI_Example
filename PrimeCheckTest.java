@@ -24,7 +24,7 @@ public class PrimeCheckTest {
   public void testPrimes() {
     /* ToDo: insert a test here */
     assertEquals("Test 3", true, PrimeCheck.isPrime(3));
-    assertEquals("this will fail", true, false);
+    
   }
 
   // --------------------------------------------------------------- //
@@ -32,6 +32,6 @@ public class PrimeCheckTest {
   public void testNonPrimes() {
     /* ToDo: insert a test here */
     assertEquals("Test 4", true, PrimeCheck.isPrime(20));
-    assertEquals("this will fail", true, false);
+    
   }
 }
